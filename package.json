@@ -1,0 +1,25 @@
+{
+  "name": "chrome-extension-broadcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+   "type": "git",
+   "url": "git+https://github.com/Tlaster/chrome-extension-broadcast.git"
+  },
+  "bugs": {
+   "url": "https://github.com/Tlaster/chrome-extension-broadcast/issues"
+  },
+  "homepage":"https://github.com/Tlaster/chrome-extension-broadcast#readme",
+  "author": "Tlaster <tlaster@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "0.0.77",
+    "typescript": "^3.2.4"
+  }
+}
