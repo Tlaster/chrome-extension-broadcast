@@ -45,7 +45,7 @@ class BroadcastCenter {
         }
     }
 
-    public on<T>(key: string, handler: (data: T) => boolean) {
+    public on<T>(key: string, handler: (data: T) => void) {
         this.listeners.push({
             handler,
             key,
